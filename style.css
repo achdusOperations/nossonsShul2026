@@ -408,21 +408,26 @@ a.view-btn.btn.donate-btns.js-team-open-donate.common-donate, a.view-btn.btn.don
 
 .donate-now{
     border-radius: 25px !important;
-    background: #f91c90 !important;
+    background: #5a1431 !important;
 }
 /*checkmark*/
 .progress-flex .check-mark{
-color:#8392e3 !important;
+color:#e94a4a !important;
 }
 
 /*button down*/
 
 .team-donate-btn{
     border-radius: 25px !important;
-    background: #f91c90 !important;
+    background: #e94a4a !important;
 }
 .team-donate-btn:hover{
-    background: #f91c90 !important;
+    background: #e94a4a !important;
+}
+
+/*team name*/
+.team-members .team-header{
+    color:#5a1431 !important;
 }
 
 
