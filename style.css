@@ -63,7 +63,7 @@ h1 *,h2 *, h3 *,.fs-about em, .fs-footer *,.fs-countdown h3 strong,    .fs-count
 background:#FFF !important ;
 }
 .col-md-6.text-xs-center.text-md-right.fs-goal-text, .fs-goal .fs-goal-text strong{
-    color:#353a59 !important;
+    color:#5a1431 !important;
 }
 .fs-goal .fs-goal-text .fs-goal-amount,.fs-goal .fs-goal-graph-container .fs-goal-graph-text span{
     color:#e94a4a !important;
@@ -111,7 +111,7 @@ background:#FFF !important ;
 
     /*section next to countdown*/
    .fs-donate {
-    background:#353a59;
+    background:#e94a4a;
 }
 .fs-countdowndonate .fs-countdown, .fs-countdowndonate .fs-donate{
     border-radius:25px !important;
@@ -119,7 +119,7 @@ background:#FFF !important ;
 
 
 div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > polygon{
-    fill:#353a59 !important;
+    fill:#e94a4a !important;
 }
 
 /*dollar sign*/
@@ -129,7 +129,8 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
 /*button*/
 .fs-donate .fs-btn, .fs-donate .fs-btn:hover{    
     border-radius: 25px !important;
-    background-color: #fed401 !important;
+    background-color: #fff !important;
+    color:#e94a4a !important;
 }
 /*main text*/
 .fs-about-text.js-about-text h3{
