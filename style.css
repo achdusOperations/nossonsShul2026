@@ -132,6 +132,11 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
     background-color: #fff !important;
     color:#e94a4a !important;
 }
+/*amount when typed*/
+.fs-donate .fs-donate-amounts .fs-amount{
+    color:#e94a4a !important;
+}
+
 /*main text*/
 .fs-about-text.js-about-text h3{
     color:#5a1431 !important;
@@ -172,6 +177,8 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         .fs-partners h3 span , body > div.fs-root > div > div.container.fs-about-partners-container > div > div.col-md-4.fs-partners.js-partners > div > h3 {
             color:#FFF !important;
         }
+
+      
 
         /*flags*/
         .fs-partners .fs-partner-container .fs-partner{
@@ -353,7 +360,7 @@ h3.fs-matchers-intro.text-center.js-viewport-in.a-delay-100ms{
     }
  /*name of team in donor tag*/
  .team-up span{
-    color:#8392e3 !important;
+    color:#5a1431 !important;
 }
  /*be the first button*/
  #temporaryDonateButton{
@@ -428,6 +435,19 @@ color:#e94a4a !important;
 /*team name*/
 .team-members .team-header{
     color:#5a1431 !important;
+}
+
+/*donation*/
+  /*donor name*/
+  .donate-members .donates_user .left_userd .user-name{
+    color:#5a1431 !important;
+}
+/*flag*/
+.donate-members .donates_user .donate-A{
+    background:#ffbe9c !important;
+}
+.donate-members .donates_user .donate-A::before{
+    border-bottom: 7px solid #ffbe9c !important;
 }
 
 
