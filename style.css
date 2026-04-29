@@ -449,6 +449,9 @@ color:#e94a4a !important;
 .donate-members .donates_user .donate-A::before{
     border-bottom: 7px solid #ffbe9c !important;
 }
+.donate-members .donates_user .donate-A .donate-triangle{
+    border-right:26px solid #ffbe9c !important;
+}
 
 
     
