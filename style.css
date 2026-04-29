@@ -1,0 +1,416 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/*header*/
+/*donate button*/
+.fs-header-top .fs-top-tools .fs-btn{
+    background:#f91c90 !important;
+    border-radius: 25px !important;
+}
+a.a2a_button_facebook, a.a2a_button_twitter, a.a2a_button_email, a.a2a_dd{
+    background:#fff !important;
+}
+    /*remove logo*/
+.fs-header-top .fs-logo-container{
+    display:none !important;
+}
+.fs-header-top{
+    border:none !important;
+}
+
+/*fonts title and buttons*/
+h1 *,h2 *, h3 *,.fs-about em, .fs-footer *,.fs-countdown h3 strong,    .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description, .fs-footer .row>div:nth-of-type(1) h3,.fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option span.fs-option-name>*, body .fs-root h3, h4,.fs-goal .fs-goal-text strong, .fs-about-text strong, .fs-header .page-header h1 small, .fs-matchers .fs-matchers-intro strong, .fs-footer, .fs-header .page-header h2, .donate-button *,.btn, .fs-partners h3 span, .fs-about-text.js-about-text h3, .fs-about-text.js-about-text h4, .fs-full-donate-form .fs-donate-header .fs-text h2{
+    font-family: "Rubik", sans-serif !important;
+}
+
+/*hero image 362*3000 for desktop 1000*1180 for mobiles*/
+.fs-header:before {
+    background-image: 
+   url("https://chabadofwesthills.com/media/images/1344/fcid13449323.png");
+   background-size:100% 100%;
+   }
+   @media screen and (max-width: 700px) {
+   .fs-header:before {
+    background-image: 
+   url("https://chabadofwesthills.com/media/images/1344/wPbr13449327.png");
+   background-size:100% 100%;
+   }
+   }
+   /*text hero*/
+   
+.fs-header .page-header h1 small,  .fs-header .page-header h2, .page-header .a-delay-200ms{
+    display:none !important;
+   }
+   
+
+/*buttons */
+.donate-button .donate-button-text {
+    background:#fed401 !important;
+  border-radius: 25px !important;
+  color:#032550 !important;
+  
+  }
+ /* .donate-button .donate-button-text:hover{
+    background: #FFF !important;
+  }
+  /*goal section*/
+  .jumbotron.fs-header {
+    border-bottom: 4px solid #FFF !important;
+}
+.fs-goal{
+background:#FFF !important ;
+}
+.col-md-6.text-xs-center.text-md-right.fs-goal-text, .fs-goal .fs-goal-text strong{
+    color:#353a59 !important;
+}
+.fs-goal .fs-goal-text .fs-goal-amount,.fs-goal .fs-goal-graph-container .fs-goal-graph-text span{
+    color:#f91c90 !important;
+}
+/*goal meter  filled and then not filled*/
+.fs-goal-graph-fill{
+    background: #f91c90 !important;
+}
+.fs-goal-graph{
+    background: #353a59 !important;
+}
+/*center goal*/
+@media (min-width:992px){
+    .fs-goal .fs-goal-text{
+    display: flex !important;
+    justify-content: center !important;
+    }
+}
+
+/*countdown*/
+.fs-countdown {
+    background:#f91c90 !important;
+    }
+    .fs-countdown-number, .fs-countdown-sep{
+      color:#353a59 !important;
+    }
+    /*maximize in countdown*/
+    .fs-countdown h3 strong {
+        color:#fff;
+    }
+    .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
+        color:#fff !important;
+    }
+    /*left until...*/
+    h3.fs-countdown-message {
+        color: #353a59 !important;
+    } 
+    /*full width*/
+    .fs-countdowndonate{
+        width:100% !important;
+        padding-right:0px !important;
+        padding-left:0px !important;
+    }
+
+
+    /*section next to countdown*/
+   .fs-donate {
+    background:#353a59;
+}
+.fs-countdowndonate .fs-countdown, .fs-countdowndonate .fs-donate{
+    border-radius:25px !important;
+}
+
+
+div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > polygon{
+    fill:#353a59 !important;
+}
+
+/*dollar sign*/
+.fs-donate .fs-donate-amounts {
+    color:#fff;
+}
+/*button*/
+.fs-donate .fs-btn, .fs-donate .fs-btn:hover{    
+    border-radius: 25px !important;
+    background-color: #fed401 !important;
+}
+/*main text*/
+.fs-about-text.js-about-text h3{
+    color:#353a59 !important;
+}
+.fs-about-text.js-about-text h4{
+    color: #f91c90 !important;
+}
+.fs-about-text.js-about-text p{
+    font-size:16px !important;
+}
+
+/*about modal rounded*/
+.modal-content{
+    border-radius:25px !important;
+}
+.modal .modal-header{
+    border-radius:25px 25px 0px 0px !important;
+}
+
+/*about rounded*/
+.col-md-8.fs-about.js-about.fs-about-main-body{
+    border-radius:25px !important;
+}
+
+/*"Our donors"*/
+.donar-section{
+    background: #353a59;
+    }
+    .fs-partners>div{
+        border-top:6px solid #f91c90 !important;
+        background: #032550 !important;
+        border-radius:25px !important;
+    }       
+    .fs-partners .fs-btn{
+        background:#f91c90 !important;
+        border-radius: 25px !important;
+        }
+        .fs-partners h3 span , body > div.fs-root > div > div.container.fs-about-partners-container > div > div.col-md-4.fs-partners.js-partners > div > h3 {
+            color:#FFF !important;
+        }
+
+        /*flags*/
+        .fs-partners .fs-partner-container .fs-partner{
+            background: #FFF !important;
+        }
+        .fs-partner .fs-bottom-triangle  polygon{
+            fill:#FFF !important;
+            }
+    .fs-partners .fs-partner-container .fs-partner .fs-partner-name, .fs-partners .fs-partner-container .fs-partner .fs-partner-donation-amount{
+        color:#032550 !important;
+    }
+     /*read more*/
+     .fs-about-text .fs-btn-read-more{
+        border-radius: 25px !important;
+        background: #f91c90 !important;
+        color:#FFF !important;
+        font-weight: bold !important;
+     }   
+    
+    /*donation page*/
+    .fs-full-donate-form .fs-donate-body .fs-donate-section h3{
+        color:#353a59 !important;
+        font-family: "Sniglet", serif !important;
+    }
+    
+    /*amount boxes and button*/
+    .fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option span.fs-option-name>*, #fs-donate-form .fs-btn-donate,.fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option.fs-other label.selected, .fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option.selected .fs-option-name>div{
+        background-color: #f91c90 !important;
+        color:#fff !important;
+        border-radius:25px !important;
+    }
+    .fs-full-donate-form .fs-donate-body .fs-effective-donation-container .fs-effective-donation-amount-container{
+        color:#f91c90 !important;
+    }
+    /*amount boxes when selected*/
+    .fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option.fs-other label.selected, .fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option.selected .fs-option-name>div {
+        background:#16396a;
+        color:#FFF
+    
+    }
+    /*footer*/
+    .fs-footer {
+        background: #353a59;
+        border-top: 1px solid #353a59;
+    }
+    .fs-footer .row>div:nth-of-type(1) h3, .fs-footer .row>div:nth-of-type(2) h3 , address {
+        color:#fff !important;
+    }
+    /*picture*/
+    .image_change{
+        width:100%;
+    }
+/*bonus round*/
+.fs-bonus-badge{
+    display:none !important;
+}
+
+    /*hide the double your impact at the top*/
+h3.fs-matchers-intro.text-center.js-viewport-in.a-delay-100ms{
+    display:none !important;
+}
+    /*matchers even if there aren't any*/
+    .container-fluid.fs-matchers{
+        background:#FFF !important;
+        border-bottom: 1px solid #FFF !important;
+    }
+    .fs-matchers .fs-matchers-intro strong{
+        color:#353a59 !important;
+    }
+    @media(max-width:991px){
+        .fs-campaign-info{
+            background-color: #fff !important;
+            border-bottom: #FFF !important;
+        }
+    }
+    /*if there are no matchers*/
+    .fs-matchers .fs-matcher .fs-matcher-image{
+   display:none !important;
+    }
+    .fs-matchers .fs-matcher .fs-matcher-title{
+     display:none !important;
+    }
+    h3.fs-matchers-intro.text-center.js-viewport-in.a-delay-100ms{
+        display:none !important;
+    }
+
+    /*if there are matchers*/
+
+    /*section*/
+  /*  .fs-matchers{
+        background:#FFF !important;
+        border-bottom: none !important;
+    }
+
+    /*"Every $=*/
+   /* .fs-matchers .fs-matchers-intro strong{
+        color:#fe3f38 !important;
+        font-style:italic !important;
+    }
+    .fs-matchers .fs-matchers-intro span:nth-child(2){
+        color:#101d5f !important;
+        font-style: italic !important;
+    }
+/*circle*/
+   /* .fs-matchers .fs-matcher .fs-matcher-image .fs-image-wrap-ratio::after{
+        box-shadow:inset 0 0 0 2px #fe3f38 !important;
+    }
+   
+   
+    .fs-matchers .fs-matcher .fs-matcher-title{
+        font-size: 24px !important;
+        color: #fe3f38 !important;
+        font-weight: bold !important;
+    }
+    .fs-matchers .fs-matcher .fs-matcher-subtitle{
+        font-size: 16px !important;
+        font-weight: bold !important;
+    }
+       /*donors buttons on separate lines. width is 100% divided by amount of matching categories (if more than 4 do 33%) in chabadone between matchers write </br*/
+     /*  .fs-matchers .fs-matcher  {
+        width:33%;
+        padding-left:0px !important;
+        padding-right:0px !important;
+      }
+      @media (max-width: 991px){
+        .fs-matchers .fs-matcher{
+          width:100%;
+        }
+      }
+
+
+
+    /*lengthen campaign*/    
+   /* h3.fs-countdown-message::after{
+        content:"The campaign will remain open until we hit our goal." !important;
+        color:#fff;
+        visibility: visible !important;
+        position:absolute !important;
+        top:26px !important;
+        left:0 !important;
+      }
+      .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
+        display:none !important;
+    }
+    h3.fs-countdown-message {
+     visibility:hidden !important;
+       position:relative !important;
+    } 
+    .fs-countdown-number, .fs-countdown-sep{
+        display:none !important;
+      }
+
+*/
+
+ /*teams*/
+
+/*donor,teams and about*/
+.donar-section .nav-tabs .nav-item.active .nav-link, .donar-section .nav-tabs .nav-link{
+    color: #fff !important;;
+    
+}
+.donar-section .nav-tabs .nav-item.active .nav-link, .donar-section .nav-tabs .nav-item:hover .nav-link{
+    border-bottom: 3px solid #fff !important;
+}
+
+/*round search and sort by*/
+.right-filters-data .sort-by-f .form-control.custom-select,  .right-filters-data .input-group, .right-filters-data .input-group .input-group-addon{
+    border-radius:25px !important;
+    }
+    input.form-control.filter-search.active{
+        
+    margin-left:2px !important;
+    }
+ /*name of team in donor tag*/
+ .team-up span{
+    color:#8392e3 !important;
+}
+ /*be the first button*/
+ #temporaryDonateButton{
+    background:#fff !important;
+    border-radius: 25px !important;
+    color:#353a59 !important;
+}
+/*round search and sort by*/
+.right-filters-data .sort-by-f .form-control.custom-select,  .right-filters-data .input-group, .right-filters-data .input-group .input-group-addon{
+border-radius:25px !important;
+}
+input.form-control.filter-search.active{    
+margin-left:2px !important;
+}
+
+
+/*left button*/
+a.view-btn.btn.js-team-detail, a.view-btn.btn.js-team-detail:hover {
+    background:#353a59 !important;
+    border-radius: 25px !important;
+    color:#fff !important;
+}
+/*right button*/
+a.view-btn.btn.donate-btns.js-team-open-donate.common-donate, a.view-btn.btn.donate-btns.js-team-open-donate.common-donate:hover{
+    background:#353a59 !important;
+    border-radius: 25px !important;
+    color:#fff !important;
+}
+/*filler filled and not filled*/
+.progress-flex .progress .progress-bar{
+    background: #27365b !important;
+}
+
+.progress-flex .progress{
+    background: #f91c90 !important;
+}
+
+
+
+/*team page*/
+
+/*button*/
+
+.donate-now{
+    border-radius: 25px !important;
+    background: #f91c90 !important;
+}
+/*checkmark*/
+.progress-flex .check-mark{
+color:#8392e3 !important;
+}
+
+/*button down*/
+
+.team-donate-btn{
+    border-radius: 25px !important;
+    background: #f91c90 !important;
+}
+.team-donate-btn:hover{
+    background: #f91c90 !important;
+}
+
+
+    
+
+    
+    
