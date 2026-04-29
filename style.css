@@ -28,13 +28,13 @@ h1 *,h2 *, h3 *,.fs-about em, .fs-footer *,.fs-countdown h3 strong,    .fs-count
 /*hero image 362*3000 for desktop 1000*1180 for mobiles*/
 .fs-header:before {
     background-image: 
-   url("https://chabadofwesthills.com/media/images/1344/fcid13449323.png");
+   url("https://nossonsshul.com/media/images/1367/zjiS13676531.png");
    background-size:100% 100%;
    }
    @media screen and (max-width: 700px) {
    .fs-header:before {
     background-image: 
-   url("https://chabadofwesthills.com/media/images/1344/wPbr13449327.png");
+   url("https://nossonsshul.com/media/images/1367/SmDd13676532.png");
    background-size:100% 100%;
    }
    }
